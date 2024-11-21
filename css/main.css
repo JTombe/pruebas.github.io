@@ -1,0 +1,146 @@
+/*---------lista de colores--------------------------------*/
+
+:root {
+    --fondo:#0c0e1f;
+    --color-letras-titulos: #eeebdc;
+    --color-nav: #1edda1e5;
+    --color-letras: #abb8d8;
+    --color-1: #93f5a9;
+    --color-hover-letras: #a5f540;
+    --font-family: "Pixelify Sans";
+}
+
+/*--------------------------------------------------------*/
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--fondo);
+    color: var(--color-letras);
+    margin: 0%;
+    padding: 0%;
+}
+
+/*------------------------------------------------------*/
+
+nav{
+    background-color: var(--color-nav);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 0%;
+    position: top;
+    flex-wrap: wrap;
+}
+
+#logoSiv{
+    height: 100px;
+}
+
+#ulNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+}
+
+.liNav{
+    padding: 1.5rem 35%;
+}
+
+.aNav{
+    color: var(--color-letras-titulos);
+    text-decoration: none;
+}
+
+.liNav:hover {
+    background-color: var(--color-letras);
+    border-radius: 5px;
+    a {
+        color: var(--color-hover-letras);
+    }
+}
+
+/*------------------------------------------------------*/
+
+main {
+    display: block;
+    margin: 4%;
+}
+
+section{
+    display: block;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+section>p {
+    font-size: 15pt;
+    text-align: center;
+    align-items: center;
+    padding: 0%;
+    width: 100%;
+}
+
+#title{
+    font-size: 30pt;
+    margin: 5%;
+    padding: 0%;
+    color: #eeebdc;
+}
+
+.subtitle {
+    font-size: 15pt;
+    margin: 5%;
+    padding: 0%;
+    color: #eeebdc;
+}
+
+#ulGoal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.liGoal {
+    padding: 1rem;
+}
+
+.liGoal:hover {
+    color: var(--color-hover-letras);
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------*/
+
+footer {
+    color: var(--color-letras-titulos);
+    text-align: center;
+    padding: 0%;
+}
+
+#ulFoot{
+    
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    a {
+        color: var(--color-letras-titulos);
+        text-decoration: none;
+    }
+}
+
+#insta:hover {
+    color: var(--color-hover-letras);
+    border-radius: 5px;
+}
+
